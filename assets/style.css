@@ -1,0 +1,288 @@
+.js-plotly-plot .plotly .modebar {
+    padding-top: 5%;
+    margin-right: 3.5%;
+  }
+  
+  body {
+    background-color: #414040;
+    margin: 5%;
+  }
+  
+  .two.columns {
+    width: 16.25%;
+  }
+  
+  .column,
+  .columns {
+    margin-left: 0.5%;
+  }
+  
+  .pretty_container {
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+  }
+
+  .pretty_container_modified {
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+  }
+  
+  .bare_container {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  
+  .dcc_control {
+    margin: 0;
+    padding: 5px;
+    width: calc(100%-40px);
+  }
+  
+  .control_label {
+    margin: 0;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    width: calc(100%-40px);
+    color: #f9f9f9;
+  }
+  
+  .rc-slider {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  
+  .flex-display {
+    display: flex;
+  }
+  
+  .container-display {
+    display: flex;
+  }
+  
+  #individual_graph,
+  #aggregate_graph {
+    width: calc(100% - 30px);
+    position: absolute;
+  }
+  
+  #count_graph {
+    position: absolute;
+    height: calc(100% - 30px);
+    width: calc(100% - 30px);
+  }
+  
+  #countGraphContainer {
+    flex: 5;
+    position: relative;
+  }
+  
+  #header {
+    align-items: center;
+  }
+  
+  #learn-more-button {
+    text-align: center;
+    height: 100%;
+    padding: 0 20px;
+    text-transform: none;
+    font-size: 15px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 30px;
+  }
+  #title {
+    text-align: center;
+  }
+  
+  .mini_container {
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    margin: 10px;
+    padding: 15px;
+    position: relative;
+  }
+  
+  #right-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #wells {
+    flex: 1;
+  }
+  
+  #gas {
+    flex: 1;
+  }
+  
+  #aggregate_data {
+    align-items: center;
+  }
+  
+  #oil {
+    flex: 1;
+  }
+  
+  #water {
+    flex: 1;
+  }
+  
+  #tripleContainer {
+    display: flex;
+    flex: 3;
+  }
+  
+  #mainContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #pie_graph > div > div > svg:nth-child(3) > g.infolayer > g.legend {
+    pointer-events: all;
+    transform: translate(30px, 349px);
+  }
+  .margin-setter {
+    margin-top: 40px;
+  }
+  .btn-margin-mod-24 {
+    margin-right: 4px;
+    width: 24%;
+  }
+  .btn-display {}
+  .btn-margin-mod-49 {
+    width: 49%;
+    margin-right: 4px;
+  }
+  .btn-margin-mod-32 {
+    width: 32%;
+    margin-right: 4px;
+  }
+
+@media only screen and (max-width: 1024px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .eight.columns {
+    width: 100%;
+  }
+  
+  .seven.columns {
+    width: 100%;
+  }
+
+  .four.columns {
+    width: 100%;
+  }
+  .five.columns {
+    width: 100%;
+  }
+  .columns {
+    margin-left: 0;
+  }
+  
+  #right-column {
+    display: block;
+  }
+
+  .flex-display {
+    display: block;
+  }
+
+  .align {
+    text-align: center;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
+  .eight.columns {
+    width: 100%;
+  }
+  
+  .seven.columns {
+    width: 100%;
+  }
+
+  .four.columns {
+    width: 100%;
+  }
+  .five.columns {
+    width: 100%;
+  }
+  .columns {
+    margin-left: 0;
+  }
+
+  .row::after {
+    display: block;
+    clear: none;
+  }
+  .flex-display {
+    display: block;
+  }
+  #right-column {
+    display: block;
+  }
+  .container-display {
+    display: block;
+  }
+  .pretty_container_modified {
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    margin: 0;
+    padding: 15px;
+    position: relative;
+  }
+
+  .pretty_container {
+    border-radius: 5px;
+    background-color: #2e2e2e;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 10px;
+    padding: 15px;
+    position: relative;
+  }
+
+  .btn-display {
+    display: grid;
+  }
+
+  .btn-margin-mod-24 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .btn-margin-mod-49 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .btn-margin-mod-32 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+  }
+
+}
