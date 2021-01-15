@@ -1,5 +1,5 @@
 # Coronaanalytics
-Coronaanalytics is a interactive dashboard that contains up-to-date COVID-19 data, plots, and news making it easier to visualize COVID-19 in different countries, as well as the global impact. See the images below:
+Coronaanalytics is an interactive dashboard that contains up-to-date COVID-19 data, plots, and news making it easier to visualize COVID-19 in different countries, as well as the global impact. See the images below:
 
 #### Map
 ![](https://github.com/rohanrav/Coronaanalytics/blob/master/images/map.png)
